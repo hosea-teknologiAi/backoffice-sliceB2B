@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/build/tailwind.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>WaggCustomer</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="form-group w-50 mb-4">
+          <label for="nama_perusahaan">Nama Perusahaan</label>
+          <input
+            class="form-control"
+            placeholder="XXXXX"
+            id="nama_perusahaan"
+            name="nama_perusahaan"
+            value=""
+          />
+        </div>
+        <div class="form-group w-75 mb-4">
+          <div class="row">
+            <div class="col">
+              <label for="telepon">Telepon</label>
+              <input
+                class="form-control"
+                placeholder="XXXXX"
+                id="telepon"
+                name="telepon"
+                value=""
+              />
+            </div>
+            <div class="col">
+              <label for="fax">Fax</label>
+              <input
+                class="form-control"
+                placeholder="XXXXX"
+                id="fax"
+                name="fax"
+                value=""
+              />
+            </div>
+            <div class="col-6">
+              <label for="email">Email</label>
+              <input
+                class="form-control"
+                placeholder="XXXXX"
+                id="email"
+                name="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="form-group w-75 mb-4">
+          <div>
+            <p>Alamat</p>
+            <label for="judul_alamat">Judul Alamat</label>
+            <input
+              class="form-control mb-2"
+              placeholder="XXXXX"
+              id="judul_alamat"
+              name="judul_alamat"
+              value=""
+            />
+            <textarea
+              class="form-control"
+              placeholder="XXXXX"
+              id="judul_alamat"
+              name="judul_alamat"
+              rows="3"
+              value=""
+            >
+            </textarea>
+          </div>
+        </div>
+        <div class="form-group w-25 mb-4">
+          <label for="kode_pos">Kode Pos</label>
+          <input
+            class="form-control mb-2"
+            placeholder="XXXXX"
+            id="kode_pos"
+            name="kode_pos"
+            value=""
+          />
+        </div>
+        <div class="form-group w-75 mb-4">
+          <div class="row">
+            <div class="col">
+              <label for="provinsi">Provinsi</label>
+              <input
+                class="form-control"
+                placeholder="XXXXX"
+                id="provinsi"
+                name="provinsi"
+                value=""
+              />
+            </div>
+            <div class="col">
+              <label for="kota_kabupaten">Kota/Kabupaten</label>
+              <input
+                class="form-control"
+                placeholder="XXXXX"
+                id="kota_kabupaten"
+                name="kota_kabupaten"
+                value=""
+              />
+            </div>
+            <div class="col-6"></div>
+          </div>
+        </div>
+        <div class="form-group w-75 mb-4">
+          <div class="row">
+            <div class="col">
+              <label for="kecamatan_distric">Kecamatan/Distric</label>
+              <input
+                class="form-control"
+                placeholder="XXXXX"
+                id="kecamatan_distric"
+                name="kecamatan_distric"
+                value=""
+              />
+            </div>
+            <div class="col">
+              <label for="desa">Desa</label>
+              <input
+                class="form-control"
+                placeholder="XXXXX"
+                id="desa"
+                name="desa"
+                value=""
+              />
+            </div>
+            <div class="col-6"></div>
+          </div>
+        </div>
+        <div class="form-group w-75 mb-4">
+          <div class="row">
+            <div class="col">
+              <label for="kontak_person">Kontak Person</label>
+              <input
+                class="form-control"
+                placeholder="XXXXX"
+                id="kontak_person"
+                name="kontak_person"
+                value=""
+              />
+            </div>
+            <div class="col">
+              <label for="handphone_kontak">Handphone Kontak</label>
+              <input
+                class="form-control"
+                placeholder="XXXXX"
+                id="handphone_kontak"
+                name="handphone_kontak"
+                value=""
+              />
+            </div>
+            <div class="col-6">
+              <label for="email_kontak">Email Kontak</label>
+              <input
+                class="form-control"
+                placeholder="XXXXX"
+                id="email_kontak"
+                name="email_kontak"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="d-flex justify-content-end pt-4">
+            <button class="btn btn-danger px-4 py-2 me-2">Back</button>
+            <button type="submit" class="btn btn-primary px-4 py-2">
+              Save
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
