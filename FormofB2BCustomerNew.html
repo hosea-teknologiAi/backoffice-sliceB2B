@@ -62,18 +62,25 @@
           <div>
             <p>Alamat</p>
             <label for="judul_alamat">Judul Alamat</label>
-            <input
-              class="form-control mb-2"
-              placeholder="XXXXX"
-              id="judul_alamat"
-              name="judul_alamat"
-              value=""
-            />
+            <div class="flex flex-wrap">
+              <div class="row">
+                <div class="col">
+                  <input
+                    class="form-control mb-2"
+                    placeholder="XXXXX"
+                    id="judul_alamat"
+                    name="judul_alamat"
+                    value=""
+                  />
+                </div>
+                <div class="col"><p>ex: Kantor Cabang, Gudang</p></div>
+              </div>
+            </div>
             <textarea
               class="form-control"
               placeholder="XXXXX"
-              id="judul_alamat"
-              name="judul_alamat"
+              id="alamat"
+              name="alamat"
               rows="3"
               value=""
             >
@@ -81,14 +88,19 @@
           </div>
         </div>
         <div class="form-group w-25 mb-4">
-          <label for="kode_pos">Kode Pos</label>
-          <input
-            class="form-control mb-2"
-            placeholder="XXXXX"
-            id="kode_pos"
-            name="kode_pos"
-            value=""
-          />
+          <div class="row">
+            <div class="col">
+              <label for="kode_pos">Kode Pos</label>
+              <input
+                class="form-control mb-2"
+                placeholder="XXXXX"
+                id="kode_pos"
+                name="kode_pos"
+                value=""
+              />
+            </div>
+            <div class="col"></div>
+          </div>
         </div>
         <div class="form-group w-75 mb-4">
           <div class="row">
